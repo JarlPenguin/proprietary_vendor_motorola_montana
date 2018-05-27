@@ -23,13 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/montana/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/montana/proprietary/bin/wfdservice:system/bin/wfdservice \
-    vendor/motorola/montana/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/montana/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/montana/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/montana/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/montana/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/montana/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/montana/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/montana/proprietary/vendor/etc/camera/mot_ov5695_l5695f60_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_ov5695_l5695f60_chromatix.xml \
     vendor/motorola/montana/proprietary/vendor/etc/camera/msm8937_mot_montana_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8937_mot_montana_camera.xml \
     vendor/motorola/montana/proprietary/vendor/etc/camera/s5k3p3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_chromatix.xml \
@@ -87,11 +87,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat:system/etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat \
     vendor/motorola/montana/proprietary/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat:system/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat \
     vendor/motorola/montana/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
-    vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
-    vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
-    vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
-    vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
+    vendor/motorola/montana/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/motorola/montana/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
+    vendor/motorola/montana/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
+    vendor/motorola/montana/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
+    vendor/motorola/montana/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/montana/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
     vendor/motorola/montana/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/motorola/montana/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
