@@ -73,6 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/montana/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/montana/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
+    vendor/motorola/montana/proprietary/lib/hw/sensors.montana.so:system/lib/hw/sensors.montana.so \
+    vendor/motorola/montana/proprietary/lib/hw/sensors.rp.so:system/lib/hw/sensors.rp.so \
     vendor/motorola/montana/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/motorola/montana/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/motorola/montana/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -597,8 +599,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/montana/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
     vendor/motorola/montana/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
-    vendor/motorola/montana/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/motorola/montana/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.rc.so
+    vendor/motorola/montana/proprietary/vendor/lib/sensors.ssc.so:system/lib/hw/sensors.ssc.so
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne
