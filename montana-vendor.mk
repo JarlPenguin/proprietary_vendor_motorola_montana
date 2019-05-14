@@ -1112,6 +1112,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.display.color@1.1.so:/system/vendor/lib64/vendor.display.color@1.1.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.display.config@1.2.so:/system/vendor/lib64/vendor.display.config@1.2.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.display.config@1.3.so:/system/vendor/lib64/vendor.display.config@1.3.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/vendor.display.config@1.4.so:/system/vendor/lib64/vendor.display.config@1.4.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:/system/vendor/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:/system/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/montana/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
