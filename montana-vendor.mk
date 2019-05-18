@@ -744,6 +744,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/motorola/montana/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/montana/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/montana/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
