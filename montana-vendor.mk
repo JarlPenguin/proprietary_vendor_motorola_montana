@@ -104,17 +104,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/motorola/montana/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
     vendor/motorola/montana/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/motorola/montana/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/montana/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
     vendor/motorola/montana/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/montana/proprietary/lib/libaacwrapper.so:system/lib/libaacwrapper.so \
     vendor/motorola/montana/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/montana/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
-    vendor/motorola/montana/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/motorola/montana/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/montana/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
     vendor/motorola/montana/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/motorola/montana/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
-    vendor/motorola/montana/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libfamily_photo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfamily_photo.so \
     vendor/motorola/montana/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/motorola/montana/proprietary/lib/libjson.so:system/lib/libjson.so \
     vendor/motorola/montana/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
@@ -123,13 +123,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/motorola/montana/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/motorola/montana/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/motorola/montana/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
-    vendor/motorola/montana/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
     vendor/motorola/montana/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/montana/proprietary/lib/libmotefem_svc.so:system/lib/libmotefem_svc.so \
     vendor/motorola/montana/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/montana/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
-    vendor/motorola/montana/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/motorola/montana/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/montana/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
     vendor/motorola/montana/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
@@ -157,7 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/motorola/montana/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/motorola/montana/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
-    vendor/motorola/montana/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so \
     vendor/motorola/montana/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/montana/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
     vendor/motorola/montana/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
@@ -167,12 +167,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/motorola/montana/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/motorola/montana/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/motorola/montana/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_jni.so \
     vendor/motorola/montana/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/motorola/montana/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/motorola/montana/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/motorola/montana/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
-    vendor/motorola/montana/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/motorola/montana/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/motorola/montana/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/motorola/montana/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
