@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/montana/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/motorola/montana/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
+    vendor/motorola/montana/proprietary/bin/move_time_data.sh:system/bin/move_time_data.sh \
     vendor/motorola/montana/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/montana/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/montana/proprietary/bin/iop:system/bin/iop \
