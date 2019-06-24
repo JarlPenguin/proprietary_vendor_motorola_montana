@@ -16,21 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/montana/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/motorola/montana/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/motorola/montana/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/montana/proprietary/bin/move_time_data.sh:system/bin/move_time_data.sh \
-    vendor/motorola/montana/proprietary/bin/ftmipcd:system/bin/ftmipcd \
-    vendor/motorola/montana/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
-    vendor/motorola/montana/proprietary/bin/iop:system/bin/iop \
-    vendor/motorola/montana/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/motorola/montana/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/motorola/montana/proprietary/bin/motobox:system/bin/motobox \
-    vendor/motorola/montana/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/motorola/montana/proprietary/bin/tcmd:system/bin/tcmd \
-    vendor/motorola/montana/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
-    vendor/motorola/montana/proprietary/bin/test_diag:system/bin/test_diag \
-    vendor/motorola/montana/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/montana/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
