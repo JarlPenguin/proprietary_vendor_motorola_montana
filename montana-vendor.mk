@@ -17,13 +17,13 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/montana/proprietary/bin/move_time_data.sh:system/bin/move_time_data.sh \
-    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/montana/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/motorola/montana/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/motorola/montana/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -631,8 +631,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/motorola/montana/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/montana/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/motorola/montana/proprietary/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
-    vendor/motorola/montana/proprietary/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/motorola/montana/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/motorola/montana/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/motorola/montana/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
@@ -677,23 +677,23 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
     vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/montana/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/motorola/montana/proprietary/etc/permissions/ConnectivityExt.xml:system/vendor/etc/permissions/ConnectivityExt.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.motorola.cameraone.xml:system/vendor/etc/permissions/com.motorola.cameraone.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.qti.dpmframework.xml:system/vendor/etc/permissions/com.qti.dpmframework.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.qti.location.sdk.xml:system/vendor/etc/permissions/com.qti.location.sdk.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.qualcomm.location.xml:system/vendor/etc/permissions/com.qualcomm.location.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/embms.xml:system/vendor/etc/permissions/embms.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/ims.xml:system/vendor/etc/permissions/ims.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/ConnectivityExt.xml:system/vendor/etc/permissions/ConnectivityExt.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/com.motorola.cameraone.xml:system/vendor/etc/permissions/com.motorola.cameraone.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/com.qti.dpmframework.xml:system/vendor/etc/permissions/com.qti.dpmframework.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:system/vendor/etc/permissions/com.qti.location.sdk.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml:system/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:system/vendor/etc/permissions/com.qualcomm.location.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/embms.xml:system/vendor/etc/permissions/embms.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/ims.xml:system/vendor/etc/permissions/ims.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/izat.xt.srv.xml:system/vendor/etc/permissions/izat.xt.srv.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
     vendor/motorola/montana/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/montana/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/motorola/montana/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
@@ -727,7 +727,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/motorola/montana/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
-    vendor/motorola/montana/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/motorola/montana/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/montana/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
@@ -882,10 +882,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/motorola/montana/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
+    vendor/motorola/montana/proprietary/lib/libYuvSkia.so:system/lib/libYuvSkia.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
-    vendor/motorola/montana/proprietary/vendor/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
-    vendor/motorola/montana/proprietary/vendor/lib/lib_mottof.so:system/lib/lib_mottof.so \
+    vendor/motorola/montana/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/montana/proprietary/lib/lib_mottof.so:system/lib/lib_mottof.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_remote_simlock.so:system/vendor/lib/lib_remote_simlock.so \
     vendor/motorola/montana/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/motorola/montana/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -897,7 +897,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
     vendor/motorola/montana/proprietary/vendor/lib/libadspd.so:system/vendor/lib/libadspd.so \
     vendor/motorola/montana/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
+    vendor/motorola/montana/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/montana/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/motorola/montana/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/motorola/montana/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
@@ -978,8 +978,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmodalityservice_jni.so:system/vendor/lib/libmodalityservice_jni.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmorpho_image_stabilizer4.so:system/vendor/lib/libmorpho_image_stabilizer4.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libmot_afd.so:system/lib/libmot_afd.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/motorola/montana/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
+    vendor/motorola/montana/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/motorola/montana/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/montana/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/motorola/montana/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
