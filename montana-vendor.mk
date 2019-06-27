@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/motorola/montana/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/montana/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/montana/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/motorola/montana/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/motorola/montana/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/montana/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
