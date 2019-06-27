@@ -30,8 +30,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/montana/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/montana/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/montana/proprietary/etc/camera/mot_ov5695_l5695f60_chromatix.xml:system/etc/camera/mot_ov5695_l5695f60_chromatix.xml \
+    vendor/motorola/montana/proprietary/etc/camera/msm8937_mot_montana_camera.xml:system/etc/camera/msm8937_mot_montana_camera.xml \
+    vendor/motorola/montana/proprietary/etc/camera/s5k3p3_chromatix.xml:system/etc/camera/s5k3p3_chromatix.xml \
     vendor/motorola/montana/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/motorola/montana/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/motorola/montana/proprietary/etc/external_camera_config.xml:system/etc/external_camera_config.xml \
     vendor/motorola/montana/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/motorola/montana/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/motorola/montana/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -284,8 +288,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/montana/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
     vendor/motorola/montana/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml \
     vendor/motorola/montana/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/motorola/montana/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/motorola/montana/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/montana/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
