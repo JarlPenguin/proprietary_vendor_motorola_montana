@@ -280,6 +280,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/montana/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml:system/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml \
     vendor/motorola/montana/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/motorola/montana/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/montana/proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
