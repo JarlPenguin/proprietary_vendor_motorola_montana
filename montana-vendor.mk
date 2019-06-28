@@ -284,7 +284,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/motorola/montana/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/motorola/montana/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/motorola/montana/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/motorola/montana/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/motorola/montana/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/montana/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/montana/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
@@ -1322,7 +1322,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     ConnectivityExt \
     QPerformance \
-    QtiTelephonyServicelibrary \
     UxPerformance \
     WfdCommon \
     cneapiclient \
@@ -1335,8 +1334,9 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     imscmlibrary \
     izat.xt.srv \
-    qcrilhook \
     rcsimssettings \
     tcmclient \
     vendor.qti.hardware.sensorscalibrate-V1.0-java \
+    QtiTelephonyServicelibrary \
+    qcrilhook \
     qti-vzw-ims-internal
