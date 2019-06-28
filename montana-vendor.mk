@@ -36,16 +36,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/etc/cne/SwimConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/SwimConfig.xml \
     vendor/motorola/montana/proprietary/vendor/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/andsfCne.xml \
     vendor/motorola/montana/proprietary/vendor/etc/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml \
-    vendor/motorola/montana/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
-    vendor/motorola/montana/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/DE.o.msm8937:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8937 \
+    vendor/motorola/montana/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pfp.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a300_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a300_pm4.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/motorola/montana/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
     vendor/motorola/montana/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/motorola/montana/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
-    vendor/motorola/montana/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
+    vendor/motorola/montana/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
     vendor/motorola/montana/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
@@ -66,11 +66,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RC14MB.fw:system/etc/firmware/emmc_ffu_15_RC14MB.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RC1BMB.fw:system/etc/firmware/emmc_ffu_15_RC1BMB.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RE1BMB.fw:system/etc/firmware/emmc_ffu_15_RE1BMB.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RX14MB.fw:system/etc/firmware/emmc_ffu_15_RX14MB.fw \
-    vendor/motorola/montana/proprietary/etc/firmware/emmc_ffu_15_RX1BMB.fw:system/etc/firmware/emmc_ffu_15_RX1BMB.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/emmc_ffu_15_RC14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC14MB.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/emmc_ffu_15_RC1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RC1BMB.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/emmc_ffu_15_RE1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RE1BMB.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/emmc_ffu_15_RX14MB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX14MB.fw \
+    vendor/motorola/montana/proprietary/vendor/firmware/emmc_ffu_15_RX1BMB.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/emmc_ffu_15_RX1BMB.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/ice40.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ice40.bin \
     vendor/motorola/montana/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/motorola/montana/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
@@ -79,6 +79,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
     vendor/motorola/montana/proprietary/vendor/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.0.bin \
     vendor/motorola/montana/proprietary/vendor/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.2.bin \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.rx.ext.config.0:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.0 \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.rx.ext.config.1:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.1 \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.rx.ext.config.2:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.2 \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.rx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.3 \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.tx.ext.config.0:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.0 \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.tx.ext.config.1:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.1 \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.tx.ext.config.2:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.2 \
+    vendor/motorola/montana/proprietary/vendor/firmware/opalum.tx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/montana/proprietary/vendor/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv.img \
     vendor/motorola/montana/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
     vendor/motorola/montana/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
