@@ -1355,7 +1355,8 @@ PRODUCT_PACKAGES += \
     izat.xt.srv \
     rcsimssettings \
     tcmclient \
-    vendor.qti.hardware.sensorscalibrate-V1.0-java \
     QtiTelephonyServicelibrary \
     qcrilhook \
+    vendor.qti.hardware.sensorscalibrate-V1.0-java \
+    com.fingerprints.extension \
     qti-vzw-ims-internal

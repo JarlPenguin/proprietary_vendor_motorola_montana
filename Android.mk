@@ -344,16 +344,6 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := vendor.qti.hardware.sensorscalibrate-V1.0-java
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyServicelibrary
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/vendor/framework/QtiTelephonyServicelibrary.jar
@@ -368,6 +358,28 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := motorola
 LOCAL_SRC_FILES := proprietary/vendor/framework/qcrilhook.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.hardware.sensorscalibrate-V1.0-java
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.fingerprints.extension
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/vendor/framework/com.fingerprints.extension.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
