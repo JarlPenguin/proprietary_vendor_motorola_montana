@@ -1339,8 +1339,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     ConnectivityExt \
-    QPerformance \
-    UxPerformance \
     WfdCommon \
     cneapiclient \
     com.qti.dpmframework \
