@@ -46,21 +46,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
     vendor/motorola/montana/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/motorola/montana/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
-    vendor/motorola/montana/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
-    vendor/motorola/montana/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
     vendor/motorola/montana/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/motorola/montana/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
     vendor/motorola/montana/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/motorola/montana/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
     vendor/motorola/montana/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/montana/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
-    vendor/motorola/montana/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/montana/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
     vendor/motorola/montana/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/montana/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/montana/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/montana/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/motorola/montana/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/montana/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
     vendor/motorola/montana/proprietary/vendor/etc/acdbdata/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
@@ -87,9 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/montana/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/camera.msm8937.so:system/vendor/lib/hw/camera.msm8937.so \
-    vendor/motorola/montana/proprietary/vendor/lib/hw/fingerprint.msm8937.so:system/vendor/lib/hw/fingerprint.msm8937.so \
-    vendor/motorola/montana/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
-    vendor/motorola/montana/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/motorola/montana/proprietary/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so:system/vendor/lib/hw/motorola.hardware.camera.provider@2.4-impl.so \
     vendor/motorola/montana/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_motsensorlistener.so:system/vendor/lib/lib_motsensorlistener.so \
@@ -385,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_video_full.so:system/vendor/lib/libchromatix_s5k4h8_video_full.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libdiag_system.so:system/vendor/lib/libdiag_system.so \
     vendor/motorola/montana/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/motorola/montana/proprietary/vendor/lib/libflash_aw3641.so:system/vendor/lib/libflash_aw3641.so \
     vendor/motorola/montana/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
@@ -399,7 +391,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/motorola/montana/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmbs.so:system/vendor/lib/libmbs.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmm-omxcore.so:system/vendor/lib/libmm-omxcore.so \
@@ -511,7 +502,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmorpho_image_stabilizer4.so:system/vendor/lib/libmorpho_image_stabilizer4.so \
@@ -520,7 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/montana/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libprotobuf-cpp-lpro.so:system/vendor/lib/libprotobuf-cpp-lpro.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libqmi_cci_system.so:system/vendor/lib/libqmi_cci_system.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
@@ -530,7 +519,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
     vendor/motorola/montana/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/montana/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/motorola/montana/proprietary/vendor/lib/libsensorndkbridge.so:system/vendor/lib/libsensorndkbridge.so \
     vendor/motorola/montana/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/motorola/montana/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/motorola/montana/proprietary/vendor/lib/motcamera.device@1.0-impl.so:system/vendor/lib/motcamera.device@1.0-impl.so \
@@ -543,21 +531,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/sensors.rp.so:system/vendor/lib/sensors.rp.so \
     vendor/motorola/montana/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/montana/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/libqmi_cci_system.so:system/vendor/lib64/libqmi_cci_system.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/sensors.iio.so:system/vendor/lib64/sensors.iio.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/montana/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/motorola/montana/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/motorola/montana/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/motorola/montana/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     vendor/motorola/montana/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/motorola/montana/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/motorola/montana/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so
+    vendor/motorola/montana/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/sensors.iio.so:system/vendor/lib64/sensors.iio.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/motorola/montana/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate-V1.0-java \
